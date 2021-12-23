@@ -16,6 +16,6 @@ spec:
         app: myapp-test
     spec:
       containers:
-      - image: harbor.lab.pksdemo.net/tanzu/tbs/myapp-test@sha256:d0d9763744a86db0bb4c1f6627e1dcaa01be455cec68244d1f1d5d6893c5f0be
+      - image: myapp-test
         imagePullPolicy: IfNotPresent
         name: myapp-test
