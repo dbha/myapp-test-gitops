@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: myapp-test
 images:
-- digest: sha256:4321639b37cdf96ac305f7c627db83464b1c5dc167ea12af38d3a514ae2b69a2
+- digest: sha256:267a923d605f42df0cae8096ff65376903e8afc32b9ffbcc2ab9c90f88f4ea3a
   name: myapp-test
   newName: harbor.lab.pksdemo.net/tanzu/apps/myapp-test
 resources:
