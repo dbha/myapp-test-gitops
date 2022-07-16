@@ -4,7 +4,7 @@ metadata:
   labels:
     app: myapp-test
   name: myapp-test-svc
-  namespace: myapp-test
+  namespace: demo
 spec:
   ports:
   - name: http

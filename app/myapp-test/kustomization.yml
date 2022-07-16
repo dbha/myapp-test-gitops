@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: myapp-test
+namespace: demo
 images:
 - digest: sha256:c3233f0aec0064ebc2250ac9b944b40f00fdc406bf52f4bc52671fa67241c237
   name: myapp-test
