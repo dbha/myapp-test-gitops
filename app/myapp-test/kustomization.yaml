@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: myapp-test
+images:
+- digest: sha256:445336f8df3741b9aeae265889758886bfb7156e313b01e972285eadf64aac4a
+  name: myapp-test
+  newName: harborapp.dha-tkgdemo.net/library/myapp-test
+resources:
+- myapp-test-deploy.yaml
+- myapp-test-svc.yaml
