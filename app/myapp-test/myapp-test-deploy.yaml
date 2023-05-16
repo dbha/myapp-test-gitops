@@ -4,7 +4,7 @@ metadata:
   labels:
     app: myapp-test
   name: myapp-test-deploy
-  namespace: demo
+#   namespace: demo
 spec:
   replicas: 1
   selector:
