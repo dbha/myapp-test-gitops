@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 # namespace: demo
 images:
-- digest: sha256:76b1022be92687e3f1838faf5f02087723e9614dc0bec03f4e34c004f82c6040
+- digest: sha256:f1a91df865d58a534c66a3becd73e51f35862e3ca7afd5f54a450b756cb8312e
   name: myapp-test
   newName: tkg-harborplf.dha-tkgdemo.net/tanzu/apps/myapp-test
 resources:
