@@ -2,9 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 # namespace: demo
 images:
-- digest: sha256:3b54968de2d86072f7a6a4ba91d4755a0a9237db96dc437445dda4db585e475d
-  name: myapp-test
-  newName: harborplf.dha-tkgdemo.net/tanzu/apps/myapp-test
+- name: myapp-test
+  newName: "null"
 resources:
 - myapp-test-deploy.yaml
 - myapp-test-svc.yaml
